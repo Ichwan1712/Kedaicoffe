@@ -1,0 +1,448 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Coffee Jahat</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+
+    <!-- Bagian Css -->
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Navbar Start -->
+    <nav class="navbar">
+      <a href="#" class="navbar-logo"><span>Coffee</span>Jahat</a>
+      <div class="navbar-nav">
+        <a href="#">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#product">Product</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="navbar-extra">
+        <a href="#" id="search-button"><i data-feather="search"></i></a>
+        <a href="#" id="shopping-cart-button"
+          ><i data-feather="shopping-cart"></i
+        ></a>
+        <a href="#" id="hamburger"><i data-feather="menu"></i></a>
+      </div>
+      <!-- Search Form Start -->
+      <div class="search-form">
+        <input type="search" id="search-box" placeholder="Cari disini..." />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Search Form End -->
+
+      <!-- Shopping Cart Start -->
+      <div class="shopping-cart">
+        <div class="cart-item">
+          <img src="img/Product/produk1.jpg" alt="product 1" />
+          <div class="detail-card">
+            <h3>CoffeJahat Original</h3>
+            <div class="item-price">IDR 25.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/Product/produk2.png" alt="product 1" />
+          <div class="detail-card">
+            <h3>CoffeJahat Arabica</h3>
+            <div class="item-price">IDR 30.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/Product/produk3.png" alt="product 1" />
+          <div class="detail-card">
+            <h3>CoffeJahat Catuai</h3>
+            <div class="item-price">IDR 20.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/Product/produk4.png" alt="product 4" />
+          <div class="detail-card">
+            <h3>CoffeJahat Robusta</h3>
+            <div class="item-price">IDR 30.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/Product/produk5.png" alt="product 1" />
+          <div class="detail-card">
+            <h3>CoffeJahat Liberica</h3>
+            <div class="item-price">IDR 22.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <div class="cart-item">
+          <img src="img/Product/produk6.png" alt="product 1" />
+          <div class="detail-card">
+            <h3>CoffeJahat Tea</h3>
+            <div class="item-price">IDR 18.000</div>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+      </div>
+      <!-- Shopping Cart End  -->
+    </nav>
+    <!-- Navbar End  -->
+
+    <!-- Hero Section Start -->
+    <section class="hero" id="home">
+      <main class="content">
+        <h1>Welcome to Coffe<span>Jahat</span></h1>
+        <p>
+          Tempat dimana anda bisa menikmati kopi dari racikan tangan jahat dan
+          kualitas biji kopi terbaik.
+        </p>
+      </main>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- About Section Start -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <div class="about-img">
+          <img src="img/tentang-kami.jpg" alt="Tentang Kami" />
+        </div>
+        <div class="content">
+          <h3>Kenapa CoffeJahat?</h3>
+          <p>
+            Berdiri Pada tahun 1985 CoffeJahat adalah salah satu kedai kopi yang
+            mempertahankan cita rasa kopi keasrian Nusantara.
+          </p>
+          <p>
+            Selain Rasanya yang jahat, CoffeeJahat juga kaya akan kualitas.
+            Dipilih dari biji kopi terbaik dan diolah oleh petani kopi terbaik.
+            Yuk berkunjung ke jalan Sawangan Depok, Cek selengkapnya di
+            instagram @CoffeJahat.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- About Section End -->
+
+    <!-- Menu Section Start -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>
+        Kami menyediakan berbagai menu kopi dengan kualitas terbaik. Berikut
+        adalah beberapa menu yang tersedia.
+      </p>
+      <div class="row">
+        <div class="menu-card">
+          <img src="img/menu/1.png" alt="croisant" class="menu-card-img" />
+          <p>IDR 25.000</p>
+          <h3>Croissant</h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/2.jpg" alt="croisant" class="menu-card-img" />
+          <p>IDR 20.000</p>
+          <h3>Espresso</h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/3.jpg" alt="croisant" class="menu-card-img" />
+          <p>IDR 15.000</p>
+          <h3>Cendol</h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/4.jpg" alt="croisant" class="menu-card-img" />
+          <p>IDR 25.000</p>
+          <h3>Cappucino</h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/5.jpg" alt="croisant" class="menu-card-img" />
+          <p>IDR 23.000</p>
+          <h3>Americano</h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/6.jpg" alt="croisant" class="menu-card-img" />
+          <p>IDR 45.000</p>
+          <h3>Yerba Mate</h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/7.jpg" alt="croisant" class="menu-card-img" />
+          <p>IDR 22.000</p>
+          <h3>Vanilla Latte</h3>
+        </div>
+        <div class="menu-card">
+          <img src="img/menu/8.jpg" alt="croisant" class="menu-card-img" />
+          <p>IDR 20.000</p>
+          <h3>Burger</h3>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section End -->
+
+    <!-- Product Section Start -->
+    <section id="product" class="product">
+      <h2><span>Produk</span> Unggulan Kami</h2>
+      <p>
+        Kami menyediakan berbagai produk kopi dengan kualitas terbaik. Berikut
+        adalah beberapa produk yang tersedia.
+      </p>
+      <div class="row">
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Product/produk1.jpg" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>CoffeeJahat Original</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 25K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Product/produk2.png" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>CoffeeJahat Arabica</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 30K <span>IDR 55K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Product/produk3.png" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>CoffeeJahat Catuai</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+            </div>
+            <div class="product-price">IDR 20K <span>IDR 59K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Product/produk4.png" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>CoffeeJahat Robusta</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 20K <span>IDR 40K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Product/produk5.png" alt="Product 5" />
+          </div>
+          <div class="product-content">
+            <h3>CoffeeJahat Liberica</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 22K <span>IDR 40K</span></div>
+          </div>
+        </div>
+        <div class="product-card">
+          <div class="product-icons">
+            <a href="#"><i data-feather="shopping-cart"></i></a>
+            <a href="#" class="item-detail-button"
+              ><i data-feather="eye"></i
+            ></a>
+          </div>
+          <div class="product-image">
+            <img src="img/Product/produk6.png" alt="Product 1" />
+          </div>
+          <div class="product-content">
+            <h3>CoffeeJahat Tea</h3>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 18K <span>IDR 40K</span></div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- Product Section End -->
+
+    <!-- Promo Section Start -->
+    <section class="about">
+      <h2><span>Promo</span> Member</h2>
+      <div class="row">
+        <div class="content">
+          <h3>Keuntungan Membership</h3>
+          <p>1. Diskon 50%</p>
+          <p>2. Layanan 24 Jam</p>
+          <p>3. Menyediakan Menu Baru</p>
+          <p>Ayo buruan daftar sekarang dan dapatkan diskon sebesar 50%.</p>
+          <a href="login.html" class="cta">Daftar Sekarang</a>
+        </div>
+        <div class="about-img">
+          <img src="img/promo.jpg" alt="Tentang Kami" />
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact Section Start -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>
+        Jika ada yang ingin ditanyakan tentang menu, silahkan hubungi kami di
+        bawah ini.
+      </p>
+      <div class="row">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d126881.52584774737!2d106.81779749999998!3d-6.387848549999987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e69ec0828bcde9f%3A0x301576d150524f0!2sDepok%2C%20Depok%20City%2C%20West%20Java!5e0!3m2!1sen!2sid!4v1729309495042!5m2!1sen!2sid"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+          class="map"
+        ></iframe>
+
+        <form action="">
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama" />
+          </div>
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="text" placeholder="Email" />
+          </div>
+          <div class="input-group">
+            <i data-feather="phone"></i>
+            <input type="text" placeholder="No. Telp" />
+          </div>
+          <div class="input-group">
+            <i data-feather="message-square"></i>
+            <input type="text" placeholder="Pesan" />
+          </div>
+          <button type="submit" class="btn">Kirim Pesan</button>
+        </form>
+      </div>
+    </section>
+    <!-- Contact Section End -->
+
+    <!-- Footer Start -->
+    <footer>
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+        <a href="#"><i data-feather="youtube"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+      </div>
+      <div class="links">
+        <a href="#home">Home</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#contact">Contact</a>
+      </div>
+      <div class="credit">
+        <p>Created by <a href="#">IwanBengkel</a>. | &copy; 2024.</p>
+      </div>
+    </footer>
+    <!-- Footer End -->
+
+    <!-- Modal box start -->
+    <div class="modal" id="item-detail-modal">
+      <div class="modal-container">
+        <a href="#" class="close-button"><i data-feather="x"></i></a>
+        <div class="modal-content">
+          <img src="img/Product/produk1.jpg" alt="Product 1" />
+          <div class="product-content">
+            <h3>CoffeeJahat Original</h3>
+            <p>
+              Coffee Jahat Original adalah minuman kopi dengan rasa asli dan
+              segar. Dibuat dengan bahan-bahan berkualitas tinggi dan diolah
+              dengan cara yang cerdas, menawarkan pengalaman minum yang memukau.
+            </p>
+            <div class="product-stars">
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star" class="star-full"></i>
+              <i data-feather="star"></i>
+            </div>
+            <div class="product-price">IDR 25K <span>IDR 55K</span></div>
+            <a href=""
+              ><i data-feather="shopping-cart"></i> <span>Add to cart</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Modal box end -->
+
+    <!-- Icons -->
+    <script>
+      feather.replace();
+    </script>
+
+    <!-- My Javascript -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
